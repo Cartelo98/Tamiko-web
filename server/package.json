@@ -1,0 +1,35 @@
+{
+    "name": "backend-authentication",
+    "version": "1.0.0",
+    "main": "src/app.ts",
+    "scripts": {
+        "typeorm": "ts-node -r tsconfig-paths/register node_modules/typeorm/cli.js",
+        "start": "ts-node src/app.ts",
+        "dev": "ts-node-dev src/app.ts"
+    },
+    "dependencies": {
+        "axios": "^1.8.4",
+        "bcrypt": "^5.1.1",
+        "bcryptjs": "^3.0.2",
+        "body-parser": "^1.19.0",
+        "dotenv": "^16.4.7",
+        "express": "^4.17.3",
+        "express-validator": "^7.2.1",
+        "firebase-admin": "^13.2.0",
+        "firebase-functions": "^6.3.2",
+        "jsonwebtoken": "^8.5.1",
+        "nodemailer": "^6.10.0",
+        "pg": "^8.7.1",
+        "reflect-metadata": "^0.1.13",
+        "tsconfig-paths": "^4.2.0",
+        "twilio": "^3.84.1",
+        "typeorm": "^0.3.22"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^5.0.2",
+        "@types/bcryptjs": "^3.0.0",
+        "ts-node": "^10.9.2",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^5.8.3"
+    }
+}
